@@ -36,6 +36,6 @@ public class Book {
     @Override
     public String toString() {
         return "Book { name = '" + name + "', author = '" + author + "', releaseDate = '" +
-                releaseDate + "', language = '" + language + "', genres=" + genres + " }";
+                releaseDate + "', language = '" + language + "', genres = " + genres + " }";
     }
 }
