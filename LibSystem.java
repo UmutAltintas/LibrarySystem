@@ -9,7 +9,7 @@ public class LibSystem {
         Output.print(Output.ENTER_CHOICE_LOGIN_OR_SIGNUP);
         String in = input.nextLine();
         if (in == "l") {
-
+            Output.print(Output.ENTER_CHOICE_LOGIN_OR_SIGNUP);
         }
 
         boolean cont = true;
