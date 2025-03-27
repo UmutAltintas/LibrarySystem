@@ -1,14 +1,16 @@
 import java.util.ArrayList;
 
-public class Library {
+public class LibraryManager {
     ArrayList<Book> bookCatalog;
     ArrayList<User> userCatalog;
 
-    public Library () {
+    public LibraryManager() {
         this.bookCatalog = new ArrayList<Book>();
-        this.userCatalog = new ArrayList<User>();
+    }
+
+    public void addBook (Book book) {
+        bookCatalog.add(book);
     }
 
     public void searchBook (Book book) {}
-    public void search (User user) {}
 }
